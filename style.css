@@ -1,0 +1,41 @@
+
+.header {
+    padding: 5px;
+    /* margin: 1px 0px; */
+    text-align: center;
+  }
+
+ * {
+    margin: 10 px;
+    padding: 10 px 10px 10px 10px;
+    box-sizing: border-box;
+  }
+  
+  .blog {
+    display: grid;
+    grid-template-columns: 2fr 1fr; 
+    max-width: 78rem;
+    margin: 0px auto;
+    background: white;
+    color: black;
+    align-items: center;
+    padding: 0px 0px 0px 1rem;
+  }
+  
+  .blog blockquote {
+    text-align: center;
+    font-size: 3rem;
+  }
+  
+  
+body {
+    font-family: Times, serif;
+    color: white;
+    background-color: black;
+  }
+
+  .two
+  {
+    margin: 10px 10px 10px 10px;
+    
+  }
