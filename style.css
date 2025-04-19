@@ -91,15 +91,25 @@
     }
 
     footer {
-        margin-top: 3rem;
-        text-align: right;
-        padding: 1.5rem 2rem;
-        background: linear-gradient(135deg, #1a1a1a, #333);
-        font-family: 'Playfair Display', serif;
-        font-size: 1.3rem;
-        color: #ff8a65;
-        border-top: 1px solid #444;
-    }
+      margin-top: 3rem;
+      text-align: right;
+      padding: 1.5rem 2rem;
+      background: linear-gradient(135deg, #1a1a1a, #333);
+      font-family: 'Playfair Display', serif;
+      font-size: 1.3rem;
+      color: #ff8a65;
+      border-top: 1px solid #444;
+  }
+  
+  /* Responsive adjustment */
+  @media (max-width: 600px) {
+      footer {
+          text-align: center;
+          padding: 1.5rem 1rem;
+          font-size: 1.1rem;
+      }
+  }
+  
 
     ::-webkit-scrollbar {
         width: 10px;
